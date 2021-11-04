@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zombie_against_grass"
+version = "0.1.0"
+description = ""
+authors = ["Teddy Coder <fedor_coder@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
